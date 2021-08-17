@@ -27,7 +27,7 @@ header
 }
 #title{
 	background-color:#293241ff;
-	height: 115px;
+	height: 112px;
 }
 #designCode{
 	float: left;
@@ -69,13 +69,11 @@ img#tehc
 {
 	width: 450px;
 	margin: 0 0 0 25px;
-	display: block;
 
 }
 img#design
 {
 	width: 450px;
-	display: block;
 	margin: 0 0 0 25px;
 
 }
