@@ -12,10 +12,12 @@ body
 h1,h2,h3
 {
 	font-variant: Medium;
+	line-height: 8px;
 }
 nav ul li
 {
 	list-style: none;
+	text-indent: -99999px;
 }
 nav ul li a
 {
@@ -23,7 +25,7 @@ nav ul li a
 	color: white;
 	text-decoration: none;
 	display: inline;
-	text-indent: -99999px;
+	
 
 }
 #tehc
