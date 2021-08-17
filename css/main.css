@@ -1,8 +1,8 @@
 *{padding:0;margin:0;}
 .clear{clear: both;}
-.left{display: grid;align-items: left;
+.left{float: left;display: grid;align-items: left;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));}
-  .right{display: grid;align-items: right;
+  .right{float: right;display: grid;align-items: right;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));}
 body
 {
