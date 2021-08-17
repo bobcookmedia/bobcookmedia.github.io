@@ -1,9 +1,9 @@
 *{padding:0;margin:0;}
 .clear{clear: both;}
-.left{align-items: left;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));float: left;}
-  .right{align-items: left;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));float: right;}
+.left{display: grid;align-items: left;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));}
+  .right{display: grid;align-items: right;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));}
 body
 {
 	color: white;
@@ -53,7 +53,7 @@ h2,h3
 }
 
 section.display{
-	display: grid;
+	
 
 	border: 2px solid #98c1d9ff;
 	margin: 40px 0 0 0;
@@ -68,13 +68,14 @@ p{
 	width: 400px;
 	padding: 30px 40px;
 	font-family: 'Fira Sans', 'Ubuntu', sans-serif;
+	outline: 1px solid blue;
 }
 
 img
 {
 	width: 450px;
 	margin: 0 0 0 25px;
-
+	outline: 1px solid red;
 }
 
 /* CSS HEX */
