@@ -1,0 +1,23 @@
+body
+{
+	font-family: fantasy;
+	background-color: #999;
+}
+#wrapper
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+nav ul li
+{
+	list-style: none;
+}
+nav ul li a
+{
+	color: #399;
+	text-decoration: none;
+}
+#tehc
+{
+	margin: 0 auto;
+}
