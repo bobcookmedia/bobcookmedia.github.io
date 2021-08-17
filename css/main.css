@@ -1,5 +1,9 @@
 *{padding:0;margin:0;}
-.clear{clear: both;}.left{float: left;}.right{float: right;}
+.clear{clear: both;}
+.left{align-items: left;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));float: left;}
+  .right{align-items: left;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));float: right;}
 body
 {
 	color: white;
@@ -49,6 +53,8 @@ h2,h3
 }
 
 section.display{
+	display: grid;
+
 	border: 2px solid #98c1d9ff;
 	margin: 40px 0 0 0;
 	padding: 0px 0; 
