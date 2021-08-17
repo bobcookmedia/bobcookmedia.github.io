@@ -7,36 +7,31 @@ body
 	font-family: 'Ubuntu', sans-serif;
 	margin-bottom: 700px;
 }
-#wrapper
-{
-	
-}
 header
 {
-	margin: 0 0 75px 0;
+	margin: 0 0 20px 0;
 	
 }
 .blueEdge{
 	width: 100%;
-	height: 15px;
+	height: 10px;
 	background-color: #98c1d9ff;
 	float: left;
 }
 .orange
 {
-	width: 95px;
-	height: 142px;
+	width: 80px;
+	height: 112px;
 	float: left;
 	background-color: #ee6c4dff;
 }
 #title{
-
 	background-color:#293241ff;
-	height: 157px;
+	height: 124px;
 }
 #designCode{
 	float: left;
-	margin: 25px 0px 0 20px;
+	margin: 12px 0px 0 20px;
 }
 
 h1
@@ -60,6 +55,7 @@ h3{
 nav{}
 
 section.display{
+	border: 2px solid #98c1d9ff;
 	margin: 40px 0 0 ;padding: 0px 0; width: 75%;
 background-color: #ee6c4dff;}
 p{
