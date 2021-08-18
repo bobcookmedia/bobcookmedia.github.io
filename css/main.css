@@ -1,14 +1,21 @@
+
+
+
 *{padding:0;margin:0;}
 .clear{clear: both;}
 .left{float: left;display: grid;align-items: left;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));}
   .right{float: right;display: grid;align-items: right;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));}
+
+
+
 body
 {
+	
 	color: white;
 	background-color: #3d5a80ff;
-	font-family: 'Ubuntu', sans-serif;
+	/*font-family: 'Ubuntu', sans-serif;*/
 	margin-bottom: 700px;
 }
 header
@@ -24,10 +31,43 @@ header
 }
 .orange
 {
+	
 	width: 80px;
 	height: 112px;
 	float: left;
 	background-color: #ee6c4dff;
+}
+.orange div
+{
+	margin: 12px 0 0 0;
+	font-variation-settings: "TIME" 1;
+	transition: font-variation-settings 0.4s ease;
+	font-family: "Anicons Color", sans-serif;
+	font-size: 82px;
+}
+.orange div:hover
+{
+	font-variation-settings: "TIME" 100;
+}
+.icon:hover
+{
+	font-variation-settings: "TIME" 100;
+}
+.icon{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.caption div
+{
+	display: block;
+	width: 90px;
+	height: 90px;
+	margin: 12px 0 0 0;
+	font-variation-settings: "TIME" 1;
+	transition: font-variation-settings 0.4s ease;
+	font-family: "Anicons Color", sans-serif;
+	font-size: 70px;
 }
 #title{
 	background-color:#293241ff;
@@ -60,14 +100,18 @@ section.display{
 	padding: 0px 0; 
 	width: 75%;
 	background-color: #ee6c4dff;}
-p{
+
+section.display p{
 	height: 80px;
 	font-size: 20px;
 	line-height: 40px;
-	margin: 30px 40px;
-	width: 400px;
-	padding: 30px 40px;
+	margin: 20px 0px;
+	width: 90%;
+	padding: 30px 20px;
 	font-family: 'Fira Sans', 'Ubuntu', sans-serif;
+}
+.caption{
+	position: relative;
 }
 
 img
